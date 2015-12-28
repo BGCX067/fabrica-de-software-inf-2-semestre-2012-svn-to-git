@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>fs.inf.ufg.br</groupId> 
+  <artifactId>sgb-02-2012</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>sgb-02-2012</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
+  <distributionManagement>
+      <snapshotRepository>
+          <id>linux-by69</id>
+          <name>linux-by69-snapshots</name>
+          <url>http://fs.inf.ufg.br:8080/artifactory/sgb-02-2012-snapshot</url>
+      </snapshotRepository>
+  </distributionManagement>
+  
+</project>
